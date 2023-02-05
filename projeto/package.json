@@ -11,8 +11,6 @@
     "concurrently": "^7.6.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "msnodesqlv8": "^3.0.1",
-    "mssql": "^9.0.1",
     "nodemon": "^2.0.20",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -24,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "front":"set PORT=5000 && react-scripts start",
+    "front": "set PORT=5000 && react-scripts start",
     "dev": " nodemon SERVER.js",
     "startdev": "concurrently \"npm run dev\" \"npm run front\"  ",
     "build": "react-scripts build",

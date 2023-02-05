@@ -21,5 +21,6 @@
 
 .Body h3 {
     background: rgb(232, 230, 230);
+    cursor: pointer;
 
 }
