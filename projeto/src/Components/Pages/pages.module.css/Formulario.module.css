@@ -1,0 +1,59 @@
+.ContainerGeral{
+    margin: 10px auto;
+    background-color: blueviolet;
+    width: 90%;
+
+}
+
+.Etapas{
+    background-color: red;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    width: 90%;
+    height: 58px
+}
+.Etapas h3{
+    background-color: rgb(56, 35, 149);
+    margin: auto;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 26%;
+    justify-content: space-around;
+   
+}
+
+.ContainerForm{
+    background-color: rgb(81, 0, 255);
+    margin: 120px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 329px;
+    overflow: hidden;
+
+}
+.ContainerForm form{
+    display: flex;
+    flex-direction: column;
+    line-height: 58px;
+    align-items: baseline;
+    
+}
+
+.ContainerBtns{
+    background-color: aqua;
+    width: 294px;
+    float: right;
+    margin-right: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 36px;
+}
+.ContainerBtns button{
+    background-color: rgb(136, 3, 96);
+    width: 115px;
+}

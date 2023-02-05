@@ -1,0 +1,73 @@
+.Container {
+
+    /* background-color: blue; */
+    width: 100%;
+}
+
+.bodyForm {
+    display: flex;
+    flex-direction: column;
+    margin: 90px auto;
+    width: 300px;
+    padding: 11px;
+    height: 268px;
+    border: 1px solid #cccc;
+    border-radius: 10px;
+    box-shadow: 1px 1px 13px 1px #bfbfbf;
+    justify-content: space-evenly;
+}
+.bodyForm input {
+
+    
+    height: 30px;
+
+}
+
+.btns{
+
+    width: 207px;
+    float: right;
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-between;
+    height: 38px;
+}
+.btns button{
+
+    background-color: #61dafb;
+    width: 90px;
+    border: none;
+    border-radius: 18px; 
+}
+.error {
+    border-color: red;
+}
+.errorText {
+    color: red;
+}
+.disableClick {
+    pointer-events: none !important;
+    cursor: pointer !important;
+    background-color: #61dafb;opacity:0.6 !important;
+
+}
+.enableClick {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    background-color: #61dafb !important;
+}
+.step{
+
+    /* background-color: #35e771; */
+    text-align: center;
+    margin: 35px auto -56px auto;
+    width: 289px;
+    border-radius: 9px;
+    border-radius: 1px solid red;
+    border: 2px solid green
+}
+.edit{
+
+    text-align: center;
+    cursor: pointer;
+}

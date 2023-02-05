@@ -1,0 +1,27 @@
+.estilo_container {
+
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+
+.min-height{
+    min-height: 100vh;
+    /* height: 77%; */
+}
+
+.start{
+
+    justify-content: flex-start;
+
+}
+.colum{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
